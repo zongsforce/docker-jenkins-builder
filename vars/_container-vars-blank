@@ -38,7 +38,7 @@ development_versions_items:
 # container parameters
 common_param_env_vars_enabled: true #PGID, PUID, etc, you can set it to 'optional'
 param_container_name: "{{ project_name }}"
-param_usage_include_hostname: 'optional' #you can set it to 'optional'
+param_usage_include_hostname: true #you can set it to 'optional'
 param_hostname: "hostname"
 param_hostname_desc: "In a master-slave architecture, the hostname of the master node is displayed as its name in the web interface, while the hostname of the slave nodes represents their device aliases. These aliases must match the ones defined in the master's Slaves file."
 param_usage_include_mac_address: false #you can set it to 'optional'
